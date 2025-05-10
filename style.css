@@ -1,0 +1,83 @@
+main{
+  height:calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #4aa6f6;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+nav .right li a img {
+  height: 18px;
+  vertical-align: middle;
+}
+
+.profile {
+  margin-top: 3rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+  color: whitesmoke;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 25%;
+  border: 5px solid white;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 1rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+.profile p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #4aa6f6;
+  margin: 0.3rem 0;
+}
+
+  
