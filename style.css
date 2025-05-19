@@ -109,8 +109,8 @@ h1 {
 }
 
 .about-page-text {
-  text-align: left;         /* Align text inside the container to right */
-  max-width: 600px;          /* Optional: control max width */
+  text-align: left;         
+  max-width: 600px;          
 }
 
 .calc-img {
@@ -130,7 +130,7 @@ h1 {
 }
 
 .calc-desc {
-  background-color: rgba(255, 255, 255, 0.8); /* semi-transparent black */
+  background-color: rgba(255, 255, 255, 0.8);
   color: #4aa6f6;
   padding: 1.5rem 2rem;
   border-radius: 12px;
@@ -157,6 +157,23 @@ h1 {
   line-height: 1.6;
 }
 
+.baseCodeSection {
+  display: flex;
+  align-items: flex-start;
+  gap: 120px; 
+}
+
+.baseCodeDesc {
+  flex: 1; 
+}
+
+.baseCodeImg {
+  width: 500px; 
+  height: 500px;
+  border-radius: 8px; 
+}
+
+
 .oneDesc {
   background-color: rgba(255, 255, 255, 0.8);
   color: #4aa6f6;
@@ -180,7 +197,7 @@ h1 {
 }
 
 .threeDesc {
-  background-color: rgba(255, 255, 255, 0.8); /* semi-transparent black */
+  background-color: rgba(255, 255, 255, 0.8); 
   color: #4aa6f6;
   padding: 1.5rem 2rem;
   border-radius: 12px;
