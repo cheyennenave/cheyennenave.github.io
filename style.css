@@ -140,4 +140,52 @@ h1 {
   line-height: 1.6;
 }
 
+.projectInfo {
+  text-align: left;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
 
+.baseCodeDesc {
+  background-color: rgba(255, 255, 255, 0.8); 
+  color: #4aa6f6;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  line-height: 1.6;
+}
+
+.oneDesc {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #4aa6f6;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  line-height: 1.6;
+}
+
+.twoDesc {
+  background-color: rgba(255, 255, 255, 0.8); 
+  color: #4aa6f6;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  line-height: 1.6;
+}
+
+.threeDesc {
+  background-color: rgba(255, 255, 255, 0.8); /* semi-transparent black */
+  color: #4aa6f6;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  line-height: 1.6;
+}
