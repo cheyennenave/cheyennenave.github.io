@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Document</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="about.css" />
 </head>
 
 <body class = "aboutPage">
@@ -14,11 +14,10 @@
       <ul class="left">
         <li><a href="index.html">Home</a></li>
         <li><a href = "about.html">About</a></li>
-        <li><a href="project.html">Project</a></li>
       </ul>
       <ul class="right">
         <li><strong>Contact:</strong></li>
-        <li><a href="#"><img src="icons/email.svg" alt="Email" /></a></li>
+        <li><a href="mailto:cheyenne.nave@snhu.edu"><img src="icons/email.svg" alt="Email" /></a></li>
       </ul>
     </nav>
   </header>
@@ -26,32 +25,60 @@
   <main class = "about">
     <div class = "about-layout">
       <div class="about-page-text">
-        <h1> About My Project</h1>
-        <h2 class = "calc-intro"> The Purple Calculator </h2>
+        <h1> The Purple Calculator</h1>
+
+        <div class = "calc-intro">
+          <h2 class = "assess"> Assessment </h2>
+          <p> Please click <a href ="">here</a> to view my Professional Self-Assessment. In this document, I address my strengths and how I have changed as a developer.</p>
+          <h2 class = "review">Code Review</h2>
+          <p> Please click <a href = "">here</a> to watch my review of the base code for this project.</p>
+        </div>
+
+        <h2 class = "calc-base">Foundation</h2>
         <p class = "calc-desc">For my capstone, I built a basic calculator that could be enhanced. This calculator only performed basic arithmetic, including
           addition, subtraction, multiplication, and division. It could completely clear the display or delete single digits, and incorporated decimal function and commas
           when larger numbers were input or output. The design is visually appealing, including a sleek purple radial background with opaque button-hover displays
           while the user is interacting with the calculator. The calculator display is opaque black which is bold enough to see the numbers and operations that are being worked with,
           while also complimenting the visual design of the calculator itself.
-          Please click <a href = "https://github.com/cheyennenave/BaseCodeForCalculator">here</a> to view the base code for this project.</p>
-          <h1 class = "enhance1"> Enhancement 1</h1>
+          Please click <a href = "https://github.com/cheyennenave/BaseCodeForCalculator">here</a> to view the base code for this project. Feel free to read the accompanying 
+          <a href = "">narrative</a> to see my thoughts, changes, or implementations regarding the project and how I progress forward to the next enhancement.
+          </p>
+          <img src = "images/1.png" alt = "calculator" class = "calc-img">
+
+          <h2 class = "enhance1"> Enhancement 1</h2>
           <p class = "oneDesc">My first enhancement required me to upgrade my Software Design. So far, my calculator only worked through mouse clicks. While this is a great start,
             it could become daunting. I decided to enhance my software, I was going to include keyboard functionality. By enhancing the calculator this way, I not only 
             created a better user experience, but I also increased the accessibility of my program to users who may only have access to keyboard functionality. Calculation
             time decreased as well, leading to faster computations. Please click <a href = "https://github.com/cheyennenave/Enhancement_one">here</a> to view the first enhancement
-             for this project.
+             for this project. Feel free to read the accompanying 
+          <a href = "">narrative</a> to see my thoughts, changes, or implementations regarding the project and how I progress forward to the next enhancement.
           </p>
-          <h1 class = "enhance2">Enhancement 2</h1>
-          <p class = "twoDesc">I had to enhance my current algorithms for the second enhancement. To achieve this, I decided to implement scientific formulas and constants to create a more
+
+        <h2 class = "enhance2">Enhancement 2</h2>
+        <p class = "twoDesc">I had to enhance my current algorithms for the second enhancement. To achieve this, I decided to implement scientific formulas and constants to create a more
             robust tool. I added Cosine, Sine, Tangent, Log, Natural log, Square root, Power, Percent, Pi, and Euler's number. As I was updating my compute() function, I realized
             my logic required a number input, an operand input, then a second number input for the calculator to work. The added formulas I chose only needed one number to work.
             Because of this, I decided to split my current compute() function into two separate parts where the first part only required one number input and the second required
             two number inputs. Much of my original code did not need replacing and I was able to successfully update the calculator with the new compute() function. I added the necessary
-            buttons and scaled the calculator to be visually pleasing, and thus my advanced calculator was ready. Please click <a href = ""> here</a> to view the second enhancement
-            for this project.
+            buttons and scaled the calculator to be visually pleasing, and thus my advanced calculator was ready. Please click <a href = "https://github.com/cheyennenave/Enhancement_Two"> here</a> to view the second enhancement
+            for this project. Feel free to read the accompanying 
+          <a href = "">narrative</a> to see my thoughts, changes, or implementations regarding the project and how I progress forward to the next enhancement.
           </p>
-      </div>
-      <img src = "images/1.png" alt = "calculator" class = "calc-img">
+          <img src = "images/enhanced calculator.png" alt = "enhanced calculator" class = "calc-img1">
+
+        <h2 class = "enhance3"> Enhancement 3</h2>
+        <p class = "threeDesc"> My third enhancement required a database. I decided to build a login page so users could login or register to use my calculator. Using MySQL, I created 
+          a database with the table "userTable" that would store IDs, usernames, and passwords. Once it was finished, I used Node.js and created an API so I could link the database to my 
+          calculator. The folder dbServer.js was created and houses all relevant code needed for connectivity. The server connects on port 3000 with a test message displaying if the database
+          connects as well. From there, I created a route to create a user and incorported bcrypt to hash passwords for enhanced security. Then, I created a second route to login the user.
+          Once the heavy work was done, I created a simple login.html and register.html for users to enter their information into accordingly and successfully login. Please click
+          <a href = "https://github.com/cheyennenave/Enhancement_Three">here</a> to view the third enhancement for this project. Feel free to read the accompanying 
+          <a href = "">narrative</a> to see my thoughts, changes, or implementations regarding the project and how I progress forward to the next enhancement.
+          </p>
+          <img src = "images/postman creation of test user.png" alt = "database connection"class = "calc-img3">
+          <img src = "images/login page.png" alt = "login" class = "calc-img4">
+        </div>
+
     </div>
   </main>
   <script src="script.js"></script>
