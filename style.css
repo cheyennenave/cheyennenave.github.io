@@ -1,3 +1,4 @@
+/*General format */
 main{
   height:calc(100vh - 80px);
   display: flex;
@@ -5,6 +6,7 @@ main{
   align-items: center;
 }
 
+/*Main body of the page */
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -17,6 +19,7 @@ body {
   text-align: center;
 }
 
+/*Navigation bar */
 nav {
   display: flex;
   justify-content: space-between;
@@ -25,6 +28,7 @@ nav {
   align-items: center;
 }
 
+/*Navigation pages "Home* and "About" */
 nav ul {
   list-style: none;
   display: flex;
@@ -33,17 +37,19 @@ nav ul {
   padding: 0;
 }
 
+/*Navigation bar text */
 nav li a {
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
 }
 
+/*Right side icon */
 nav .right li a img {
   height: 18px;
   vertical-align: middle;
 }
-
+/*Formatting profile layout */
 .profile {
   margin-top: 3rem;
   text-align: center;
@@ -55,6 +61,7 @@ nav .right li a img {
   color: whitesmoke;
 }
 
+/*Styling profile picture */
 .profile-img {
   width: 250px;
   height: 250px;
@@ -63,6 +70,7 @@ nav .right li a img {
   border: 5px solid white;
 }
 
+/*Headers */
 h1 {
   font-size: 4rem;
   margin-top: 1rem;
@@ -70,137 +78,10 @@ h1 {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
-
+/*Text below profile picture */
 .profile p {
   font-size: 1.1rem;
   font-weight: bold;
   color: #4aa6f6;
   margin: 0.3rem 0;
-}
-
-.aboutPage {
-    margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background-image: url(images/background.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #fff;
-  text-align: right;
-}
-
-.about {
-  height: calc(100vh - 80px);
-  display: flex;
-  justify-content: left; /* Align content to the right side */
-  align-items: center;       /* Vertically center */
-  padding-left: 3rem;       /* Add some right padding so text isn’t flush to edge */
-}
-
-.about-layout {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 4rem;
-  gap: 2rem;
-}
-
-.about-page-text {
-  text-align: left;         
-  max-width: 600px;          
-}
-
-.calc-img {
-  flex: 1;
-  height: 500px;
-  width: 500px;
-  object-fit: cover;
-  border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-  margin-left: 8rem;
-}
-
-.calc-intro {
-  margin-left: 8rem;
-  margin-bottom: 3rem;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8)
-}
-
-.calc-desc {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #4aa6f6;
-  padding: 1.5rem 2rem;
-  border-radius: 12px;
-  max-width: 600px;
-  margin-top: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  line-height: 1.6;
-}
-
-.projectInfo {
-  text-align: left;
-  margin-left: 5rem;
-  margin-top: 5rem;
-}
-
-.baseCodeDesc {
-  background-color: rgba(255, 255, 255, 0.8); 
-  color: #4aa6f6;
-  padding: 1.5rem 2rem;
-  border-radius: 12px;
-  max-width: 600px;
-  margin-top: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  line-height: 1.6;
-}
-
-.baseCodeSection {
-  display: flex;
-  align-items: flex-start;
-  gap: 120px; 
-}
-
-.baseCodeDesc {
-  flex: 1; 
-}
-
-.baseCodeImg {
-  width: 500px; 
-  height: 500px;
-  border-radius: 8px; 
-}
-
-
-.oneDesc {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #4aa6f6;
-  padding: 1.5rem 2rem;
-  border-radius: 12px;
-  max-width: 600px;
-  margin-top: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  line-height: 1.6;
-}
-
-.twoDesc {
-  background-color: rgba(255, 255, 255, 0.8); 
-  color: #4aa6f6;
-  padding: 1.5rem 2rem;
-  border-radius: 12px;
-  max-width: 600px;
-  margin-top: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  line-height: 1.6;
-}
-
-.threeDesc {
-  background-color: rgba(255, 255, 255, 0.8); 
-  color: #4aa6f6;
-  padding: 1.5rem 2rem;
-  border-radius: 12px;
-  max-width: 600px;
-  margin-top: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  line-height: 1.6;
 }
