@@ -1,3 +1,4 @@
+/*General format */
 main{
   height:calc(100vh - 80px);
   display: flex;
@@ -5,6 +6,7 @@ main{
   align-items: center;
 }
 
+/*Main body of the page */
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -17,6 +19,7 @@ body {
   text-align: center;
 }
 
+/*Navigation bar */
 nav {
   display: flex;
   justify-content: space-between;
@@ -25,6 +28,7 @@ nav {
   align-items: center;
 }
 
+/*Navigation pages "Home* and "About" */
 nav ul {
   list-style: none;
   display: flex;
@@ -33,17 +37,19 @@ nav ul {
   padding: 0;
 }
 
+/*Navigation bar text */
 nav li a {
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
 }
 
+/*Right side icon */
 nav .right li a img {
   height: 18px;
   vertical-align: middle;
 }
-
+/*Formatting profile layout */
 .profile {
   margin-top: 3rem;
   text-align: center;
@@ -55,6 +61,7 @@ nav .right li a img {
   color: whitesmoke;
 }
 
+/*Styling profile picture */
 .profile-img {
   width: 250px;
   height: 250px;
@@ -63,6 +70,7 @@ nav .right li a img {
   border: 5px solid white;
 }
 
+/*Headers */
 h1 {
   font-size: 4rem;
   margin-top: 1rem;
@@ -70,12 +78,10 @@ h1 {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
-
+/*Text below profile picture */
 .profile p {
   font-size: 1.1rem;
   font-weight: bold;
   color: #4aa6f6;
   margin: 0.3rem 0;
 }
-
-

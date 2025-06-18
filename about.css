@@ -1,4 +1,4 @@
-/* General Reset */
+/* General format */
 body.aboutPage {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -11,7 +11,7 @@ body.aboutPage {
   text-align: center;
 }
 
-/* Navigation Bar */
+/* Navigation bar */
 nav {
   display: flex;
   justify-content: space-between;
@@ -20,6 +20,7 @@ nav {
   align-items: center;
 }
 
+/*Navigation pages "Home* and "About" */
 nav ul {
   list-style: none;
   display: flex;
@@ -28,18 +29,20 @@ nav ul {
   padding: 0;
 }
 
+/*Navigation bar text */
 nav li a {
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
 }
 
+/*Right side icon */
 nav .right li a img {
   height: 18px;
   vertical-align: middle;
 }
 
-/* Main Layout */
+/*Main layout */
 main {
   min-height: calc(100vh - 80px);
   display: flex;
@@ -49,7 +52,7 @@ main {
   box-sizing: border-box;
 }
 
-/* About Layout */
+/*About layout */
 .about-layout {
   display: flex;
   flex-direction: column;
@@ -59,13 +62,13 @@ main {
   width: 100%;
 }
 
-/* Text Section */
+/*Text section */
 .about-page-text {
   width: 100%;
   text-align: center;
 }
 
-/* Headings */
+/*Headings */
 h1 {
   font-size: 3.5rem;
   font-weight: 700;
@@ -77,25 +80,14 @@ h2 {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
-/* Introduction Box */
-.calc-intro {
-  background-color: rgba(255, 255, 255, 0.85);
-  color: #4aa6f6;
-  padding: 1.5rem 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  line-height: 1.6;
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
-}
-
+/*Removing text shadow from headers in first paragraph while keeping text shadow on the rest of the headers */
 .calc-intro .assess,
 .calc-intro .review {
   text-shadow: none;
 }
 
-/* Content Blocks */
+/*Paragraph descriptions */
+.calc-intro,
 .calc-desc,
 .oneDesc,
 .twoDesc,
@@ -111,7 +103,12 @@ h2 {
   text-align: left;
 }
 
-/* Image Styling */
+/*Centering the text in the first description without changing left text-align on the rest */
+.calc-intro{
+    text-align: center;
+}
+
+/*Image styling */
 .calc-img,
 .calc-img1,
 .calc-img2,
